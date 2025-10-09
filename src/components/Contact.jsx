@@ -10,8 +10,8 @@ function Contact() {
         Have questions or want to place an order? Reach out to us!
       </p>
       <p className="text-black mb-4">
-        Email: info@zpeolfoodsng.com <br />
-        Phone: +234 123 456 7890 <br />
+        Email: zpeolfoods@yahoo.com <br />
+        Phone: +234 708 664 4262 <br />
         Address: 123 Spice Street, Lagos, Nigeria
       </p>
       <div className="max-w-md mx-auto">

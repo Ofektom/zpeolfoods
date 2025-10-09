@@ -76,9 +76,9 @@ function Layout() {
           <div className="flex-1 text-center">
             <h3 className="text-lg font-semibold mb-2 text-gray-900">Contact Us</h3>
             <p className="text-sm text-white">
-              Email: info@zpeolfoodsng.com <br />
-              Phone: +234 123 456 7890 <br />
-              Address: 123 Spice Street, Lagos, Nigeria
+              Email: zpeolfoods@yahoo.com <br />
+              Phone: +234 708 664 4262  <br />
+              Address: Ajah junction, Lagos, Nigeria
             </p>
           </div>
           <div className="flex-1 text-center md:text-right">
