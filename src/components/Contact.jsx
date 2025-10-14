@@ -9,10 +9,11 @@ function Contact() {
       <p className="text-gray-600 text-sm sm:text-base mb-4 text-center">
         Have questions or want to place an order? Reach out to us!
       </p>
-      <p className="text-gray-600 text-sm sm:text-base mb-6 sm:mb-8 text-center">
+      <p className="text-black text-sm sm:text-base mb-6 sm:mb-8 text-center">
         Email: zpeolfoods@yahoo.com <br />
-        Phone: +234 708 664 4262 <br />
-        Address: 123 Spice Street, Lagos, Nigeria
+        Phone: +234 806 337 2824 <br />
+        WhatsApp: +234 818 298 5558 <br />
+        Address: Plot 1, unit A Ebong Bassey close Osongoma Estate Uyo,  Akwa Ibom state.
       </p>
       <div className="max-w-md mx-auto">
         <input

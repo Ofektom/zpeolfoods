@@ -9,9 +9,9 @@ function Home() {
   ];
 
   const testimonials = [
-    { quote: 'ZPEOLFOODS NG provides the freshest spices I’ve ever used!', name: 'Aisha, Home Cook' },
-    { quote: 'Their cereals are top-notch and perfect for my business.', name: 'Chinedu, Restaurant Owner' },
-    { quote: 'Fast delivery and excellent quality every time.', name: 'Fatima, Retail Buyer' },
+    { quote: 'Good day, please is your swavita still available? Really enjoyed the feel after eating it. ', name: 'Mrs Doyin Emmanuel, Home Owner' },
+    { quote: 'I really love your mixed cereal, I now have my cereal plug', name: 'Blessing, Retail Buyer' },
+    { quote: 'Fast delivery and excellent quality every time.', name: 'Fatima, Restaurant Owner' },
   ];
 
   const benefits = [
@@ -30,7 +30,7 @@ function Home() {
               Welcome to ZPEOLFOODS NG
             </h1>
             <h3 className="text-base sm:text-lg md:text-xl text-gray-600 mb-6 max-w-md mx-auto sm:mx-0">
-              Your trusted hub for <span className="text-black">premium cereals and spices</span> in Nigeria, delivering fresh, organic ingredients to your kitchen.
+              Your hub for <span className="text-black">premium organically processed</span> cereals,  spices,  swallows, tea, and syrups.
             </h3>
             <Link
               to="/products"

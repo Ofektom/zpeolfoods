@@ -83,15 +83,16 @@ function Layout() {
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">ZPEOLFOODS NG</h3>
               <p className="text-sm text-white">
-                Your trusted hub for premium cereals and spices in Nigeria.
+                Your hub for premium organically processed cereals,  spices,  swallows, tea, and syrups.
               </p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Contact Us</h3>
               <p className="text-sm text-white">
-                Email: info@zpeolfoodsng.com <br />
-                Phone: +234 123 456 7890 <br />
-                Address: 123 Spice Street, Lagos, Nigeria
+                Email: zpeolfoods@yahoo.com <br />
+                Phone: +234 806 337 2824 <br />
+                WhatsApp: +234 818 298 5558 <br />
+                Address: Plot 1, unit A Ebong Bassey close Osongoma Estate Uyo,  Akwa Ibom state.
               </p>
             </div>
             <div>

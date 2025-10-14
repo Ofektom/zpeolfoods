@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import farm1 from '../assets/images/raw-material1.jpeg';
+import farm2 from '../assets/images/raw-material2.jpeg';
+import farm3 from '../assets/images/raw-material3.jpeg';
 
 function About() {
   return (
@@ -26,6 +29,27 @@ function About() {
           <p className="text-gray-600 text-sm sm:text-base">
             Through inspiration and thorough research, our brand introduced <span className="text-orange-500">Swavita™</span>, a nutrient-rich swallow made from a complete blend of whole grains, designed to be ulcer- and diabetic-friendly while offering high fiber and plant protein.
           </p>
+        </div>
+      </div>
+
+      {/* Sourcing Practices Section */}
+      <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow">
+        <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
+          Our Sourcing Practices
+        </h2>
+        <p className="text-gray-600 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed">
+          We source for our raw materials from organically grown farms, ensuring the highest quality and sustainability for our cereals and spices.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+          {[farm1, farm2, farm3].map((image, index) => (
+            <div key={index} className="overflow-hidden rounded-lg">
+              <img
+                src={image}
+                alt={`Organic farm ${index + 1}`}
+                className="w-full h-32 sm:h-48 md:h-64 object-cover"
+              />
+            </div>
+          ))}
         </div>
       </div>
 
