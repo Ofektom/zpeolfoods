@@ -21,15 +21,15 @@ function Layout() {
       <nav
         className={`fixed top-0 w-full z-20 transition-colors duration-300 ${
           scrolled ? 'bg-green-100' : 'bg-white'
-        } text-green-600 p-4`}
+        } text-green-600 py-2 px-4`}
       >
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <Link to="/" onClick={() => setIsMenuOpen(false)}>
-            <div className="h-10 w-20 sm:h-12 sm:w-24 overflow-hidden">
+            <div className="h-8 w-auto sm:h-10">
               <img
                 src={logo}
                 alt="ZPEOLFOODS NG Logo"
-                className="h-full w-full object-cover object-center scale-150"
+                className="h-full w-auto object-contain"
               />
             </div>
           </Link>
@@ -79,25 +79,25 @@ function Layout() {
       </div>
       <footer className="bg-green-600 text-white p-6 sm:p-8">
         <div className="max-w-6xl mx-auto flex flex-col gap-6 sm:gap-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center sm:text-left">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 text-center sm:text-left">
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">ZPEOLFOODS NG</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">ZPEOLFOODS NG</h3>
               <p className="text-sm text-white">
-                Your hub for premium organically processed cereals,  spices,  swallows, tea, and syrups.
+                Your hub for premium organically processed cereals, spices, swallows, tea, and syrups.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Contact Us</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Contact Us</h3>
               <p className="text-sm text-white">
                 Email: zpeolfoods@yahoo.com <br />
                 Phone: +234 806 337 2824 <br />
                 WhatsApp: +234 818 298 5558 <br />
-                Address: Plot 1, unit A Ebong Bassey close Osongoma Estate Uyo,  Akwa Ibom state.
+                Address: Plot 1, unit A Ebong Bassey close Osongoma Estate Uyo, Akwa Ibom state.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Follow Us</h3>
-              <ul className="text-sm text-white space-y-1">
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Follow Us</h3>
+              <ul className="text-sm text-white space-y-2">
                 <li><a href="https://www.facebook.com/share/1D4uXRD64U/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 hover:underline">Facebook</a></li>
                 <li><a href="https://www.instagram.com/zpeolfoods?igsh=Z2hkeXExcnlpNTI5" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 hover:underline">Instagram</a></li>
                 <li><a href="https://www.tiktok.com/@zpeolfoods?_t=ZS-90U1ROnaQxV&_r=1" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 hover:underline">TikTok</a></li>

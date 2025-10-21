@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import heroImage from '../assets/images/hero_image.svg';
 
 function Home() {
   const categories = [
@@ -23,24 +24,49 @@ function Home() {
   return (
     <div className="space-y-12 sm:space-y-16">
       {/* Hero Section */}
-      <section className="bg-white mt-16 sm:mt-20 mb-16 sm:mb-20 min-h-[60vh] sm:h-[70vh] max-h-[600px] flex items-center py-8 sm:py-12 rounded-lg shadow">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center px-4 sm:px-6">
-          <div className="sm:w-1/2 text-center sm:text-left">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-green-600 mb-4">
+      <section className="relative bg-gradient-to-br from-green-50 via-white to-yellow-50 mt-16 sm:mt-20 mb-16 sm:mb-20 min-h-[60vh] sm:h-[70vh] max-h-[600px] flex items-center py-8 sm:py-12 rounded-lg shadow-xl overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'radial-gradient(circle, #16a34a 1px, transparent 1px)',
+            backgroundSize: '30px 30px'
+          }}></div>
+        </div>
+        
+        <div className="relative max-w-6xl mx-auto flex flex-col sm:flex-row items-center px-4 sm:px-6 gap-8">
+          {/* Text Content */}
+          <div className="sm:w-1/2 text-center sm:text-left z-10">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-green-600 mb-4 leading-tight">
               Welcome to ZPEOLFOODS NG
             </h1>
-            <h3 className="text-base sm:text-lg md:text-xl text-gray-600 mb-6 max-w-md mx-auto sm:mx-0">
-              Your hub for <span className="text-black">premium organically processed</span> cereals,  spices,  swallows, tea, and syrups.
+            <h3 className="text-base sm:text-lg md:text-xl text-gray-700 mb-6 max-w-md mx-auto sm:mx-0">
+              Your hub for <span className="text-green-600 font-semibold">premium organically processed</span> cereals, spices, swallows, tea, and syrups.
             </h3>
-            <Link
-              to="/products"
-              className="inline-block bg-green-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg hover:bg-yellow-600 text-sm sm:text-base"
-            >
-              Explore Our Products
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
+              <Link
+                to="/products"
+                className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-all shadow-lg hover:shadow-xl font-semibold"
+              >
+                Explore Our Products
+              </Link>
+              <Link
+                to="/contact"
+                className="inline-block border-2 border-green-600 text-green-600 px-6 py-3 rounded-lg hover:bg-green-50 transition-all font-semibold"
+              >
+                Contact Us
+              </Link>
+            </div>
           </div>
-          <div className="sm:w-1/2 mt-6 sm:mt-0">
-            <div className="h-32 w-32 sm:h-48 sm:w-48 md:h-64 md:w-64 bg-green-600 rounded-full border-4 border-white mx-auto"></div>
+          
+          {/* Hero Image */}
+          <div className="sm:w-1/2 mt-6 sm:mt-0 z-10">
+            <div className="relative">
+              <img 
+                src={heroImage} 
+                alt="ZPEOLFOODS NG - Premium Organic Products"
+                className="w-full h-auto max-w-md mx-auto drop-shadow-2xl transform hover:scale-105 transition-transform duration-300"
+              />
+            </div>
           </div>
         </div>
       </section>
