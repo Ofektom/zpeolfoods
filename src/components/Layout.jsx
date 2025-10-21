@@ -98,9 +98,9 @@ function Layout() {
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Follow Us</h3>
               <ul className="text-sm text-white space-y-1">
-                <li><a href="#" className="hover:text-orange-500 hover:underline">Facebook</a></li>
-                <li><a href="#" className="hover:text-orange-500 hover:underline">Instagram</a></li>
-                <li><a href="#" className="hover:text-orange-500 hover:underline">Twitter</a></li>
+                <li><a href="https://www.facebook.com/share/1D4uXRD64U/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 hover:underline">Facebook</a></li>
+                <li><a href="https://www.instagram.com/zpeolfoods?igsh=Z2hkeXExcnlpNTI5" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 hover:underline">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@zpeolfoods?_t=ZS-90U1ROnaQxV&_r=1" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 hover:underline">TikTok</a></li>
               </ul>
             </div>
           </div>
